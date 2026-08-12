@@ -1,0 +1,48 @@
+val deps = arrayOf(
+    "com.google.code.gson:gson:2.10.1",
+    "org.apache.commons:commons-lang3:3.12.0",
+    "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0",
+    "io.netty:netty-all:4.1.91.Final",
+    "androidx.lifecycle:lifecycle-runtime-ktx:2.7.0",
+    "androidx.core:core-ktx:1.12.0",
+    "com.squareup.sqldelight:android-driver:1.5.5",
+    "com.android.tools.build:gradle:8.1.4",
+    "com.zaxxer:HikariCP:5.0.1",
+    "org.slf4j:slf4j-api:2.0.7",
+    "org.springframework.boot:spring-boot-starter-web:3.0.6",
+    "org.mongodb:mongodb-driver-sync:4.9.0",
+    "org.slf4j:slf4j-simple:2.0.7",
+    "com.squareup.retrofit2:retrofit:2.9.0",
+    "androidx.compose.ui:ui:1.5.4",
+    "com.fasterxml.jackson.core:jackson-databind:2.14.2",
+    "androidx.activity:activity-compose:1.8.0",
+    "org.projectlombok:lombok:1.18.26",
+    "androidx.compose.foundation:foundation:1.5.4",
+    "io.ktor:ktor-server-core-jvm:2.3.4",
+    "org.json:json:20230227",
+    "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3",
+    "com.squareup.sqldelight:runtime:1.5.5",
+    "org.jsoup:jsoup:1.15.4",
+    "androidx.compose.material:material:1.5.4",
+    "org.eclipse.jetty:jetty-server:11.0.15",
+    "redis.clients:jedis:4.3.1",
+    "org.jetbrains.kotlin:kotlin-stdlib:1.9.10",
+    "org.jetbrains.kotlin.plugin.serialization:org.jetbrains.kotlin.plugin.serialization.gradle.plugin:1.9.10",
+    "com.squareup.okhttp3:okhttp:4.10.0",
+    "androidx.appcompat:appcompat:1.6.1",
+    "org.mockito:mockito-core:5.2.0",
+    "com.google.guava:guava:31.1-jre",
+    "org.apache.httpcomponents:httpclient:4.5.14",
+    "org.assertj:assertj-core:3.24.2",
+    "com.google.android.material:material:1.11.0",
+    "io.reactivex.rxjava3:rxjava:3.1.5",
+    "io.ktor:ktor-server-netty-jvm:2.3.4",
+    "ch.qos.logback:logback-classic:1.4.6",
+    "org.junit.jupiter:junit-jupiter:5.9.2",
+)
+
+fun main() {
+    println("Loaded ${deps.size} of ${deps.size} gradle dependencies.")
+    deps.forEach { println("  $it") }
+    println("Hello World from chaos!")
+}

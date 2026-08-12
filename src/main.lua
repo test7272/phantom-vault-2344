@@ -1,0 +1,50 @@
+local deps = {
+  "lua-protobuf",
+  "dkjson",
+  "luacov",
+  "luasql.sqlite3",
+  "term",
+  "luacheck",
+  "luassert",
+  "cqueues",
+  "pl",
+  "middleclass",
+  "resty.redis",
+  "compat53",
+  "socket",
+  "json",
+  "luasql",
+  "ssl",
+  "argparse",
+  "say",
+  "rex_pcre",
+  "coxpcall",
+  "luasystem",
+  "coproas",
+  "lua-curses",
+  "luv",
+  "lume",
+  "mmd",
+  "cjson",
+  "resty.http",
+  "date",
+  "cluacov",
+  "busted",
+  "luaprofiler",
+  "ev",
+  "lpeg",
+  "luasignal",
+  "inspect",
+  "zlib",
+  "luarocks-build-rust-mlua",
+  "posix",
+  "lfs",
+  "ansicolors",
+}
+
+local loaded = 0
+for _, d in ipairs(deps) do
+  if pcall(require, d) then loaded = loaded + 1 end
+end
+print("Loaded " .. loaded .. " of " .. #deps .. " luarocks packages.")
+print("Hello World from chaos!")

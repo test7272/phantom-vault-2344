@@ -1,0 +1,36 @@
+[submodule "matekuko-mebyrepe"]
+	path = matekuko-mebyrepe
+	url = https://github.com/ansible/ansible.git
+[submodule "ronuci-zokocace"]
+	path = ronuci-zokocace
+	url = https://github.com/apache/spark.git
+[submodule "jomu-bopa"]
+	path = jomu-bopa
+	url = https://github.com/torvalds/linux.git
+[submodule "taguvaly-jiseface"]
+	path = taguvaly-jiseface
+	url = https://github.com/openai/openai-python.git
+[submodule "zojeje-zubenamu"]
+	path = zojeje-zubenamu
+	url = https://github.com/twbs/bootstrap.git
+[submodule "fycimo-bajojazi"]
+	path = fycimo-bajojazi
+	url = https://github.com/tensorflow/tensorflow.git
+[submodule "lymakure-tidojiji"]
+	path = lymakure-tidojiji
+	url = https://github.com/kubernetes/kubernetes.git
+[submodule "vezefira-wazynyho"]
+	path = vezefira-wazynyho
+	url = https://github.com/golang/go.git
+[submodule "hyja-hijegy"]
+	path = hyja-hijegy
+	url = https://github.com/angular/angular.git
+[submodule "reje-ditipify"]
+	path = reje-ditipify
+	url = https://github.com/microsoft/TypeScript.git
+[submodule "suvu-mucojaru"]
+	path = suvu-mucojaru
+	url = https://github.com/d3/d3.git
+[submodule "tunyqa-cubo"]
+	path = tunyqa-cubo
+	url = https://github.com/grpc/grpc.git
