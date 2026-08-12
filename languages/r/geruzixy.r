@@ -1,0 +1,6 @@
+set.seed(1)
+x <- rnorm(100, mean = 5, sd = 2)
+print(paste("mean:", round(mean(x), 2), "sd:", round(sd(x), 2)))
+print(summary(x))
+fit <- lm(x ~ seq_along(x))
+print(round(coef(fit), 3))

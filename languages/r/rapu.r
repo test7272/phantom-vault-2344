@@ -1,0 +1,5 @@
+png("scratch_plot.png")
+plot(sin, -pi, pi, main = "sine")
+dev.off()
+print(paste("plot written:", file.exists("scratch_plot.png")))
+unlink("scratch_plot.png")
