@@ -1,0 +1,10 @@
+use strict;
+use warnings;
+my $greeting = "hello";
+my @nums = (3, 1, 4, 1, 5);
+my %count = (a => 1, b => 2);
+print "$greeting from strict perl\n";
+my $sum = 0;
+$sum += $_ for @nums;
+print "sum: $sum\n";
+print "keys: " . join(",", keys %count) . "\n";
